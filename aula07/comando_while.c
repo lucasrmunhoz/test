@@ -11,5 +11,13 @@ int main(){
     printf("Digite um número de 1 a 10: ");
     scanf("%i", &numero);
   }
+
+  int i = 0;
+  while (i < numero){
+    printf("%i\n", i);
+    i++;
+  }
+    
+  
   return 0;
 }
